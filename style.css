@@ -1,0 +1,70 @@
+.topimgs {
+    margin-top: 60;
+}
+
+#fish {
+    width: 200px;
+    border: 6px solid #7e9171;
+}
+
+#ballet {
+    width: 287px;
+    border: 6px solid #7e9171;
+}
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+    color: #505e47;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/736x/42/f7/b1/42f7b1a97343f111eb24ec87507c59c3.jpg");
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    justify-content: center;
+    border: 6px solid #7e9171;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 5px; 
+}
+
+.menu {
+    font-family: 'Shrikhand', cursive;
+    list-style: none;
+    position: absolute;
+    top:  10px;
+    right: 300px;
+    z-index: 10;
+    cursor: pointer;
+    text-align: center;
+}
+
+.links {
+    float: left;
+    color: #505e47;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.links:hover {
+    background-color: #bcccb1;
+    border-radius: 5px;
+    border-style: outset;
+}
+
+p {
+    background-color: #d3dbd3;
+    border: 6px solid #7e9171;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 2;
+}
