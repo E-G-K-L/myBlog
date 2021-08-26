@@ -15,6 +15,7 @@
 h1 {
     font-family: 'Shrikhand', cursive;
     color: #505e47;
+    font-size: 35px;
 }
 
 body {
@@ -30,35 +31,42 @@ img {
     padding-bottom: 8px;
     padding-right: 8px;
     padding-left: 8px;
-    margin: 5px; 
+    margin: 5px;
+    transition: transform .2s;
+}
+
+.gameimg:hover {
+    transform: scale(0.9);
 }
 
 .menu {
     font-family: 'Shrikhand', cursive;
     list-style: none;
-    position: absolute;
-    top:  10px;
-    right: 300px;
+    position: fixed;
+    margin-top: 7px;
+    top:  0px;
     z-index: 10;
     cursor: pointer;
-    text-align: center;
+    color: #c0cfc3;
+    background: white
 }
 
 .links {
-    float: left;
     color: #505e47;
     padding-top: 5px;
     padding-right: 9px;
     padding-left: 9px;
     padding-bottom: 5px;
     font-size: 20px;
-    text-align: center;
+    display: inline;
+    text-decoration: none;
 }
 
 .links:hover {
     background-color: #bcccb1;
     border-radius: 5px;
     border-style: outset;
+    font-size: 25;
 }
 
 p {
@@ -67,4 +75,55 @@ p {
     margin: 25px auto;
     font-size: 17px;
     line-height: 2;
+}
+
+#apps {
+    height: 750px;
+    width: 100%;
+    background-color: #d3dbd3;
+}
+
+#games{
+    height: 400px;
+    width: 100%;
+    background-color: #c0cfc0;
+}
+
+#chatbot{
+    height: 580px;
+    width: 100%;
+    background-color: #9cb59c;
+}
+
+h3 {
+    color: #505e47;
+    font-family: 'Shrikhand', cursive;
+}
+
+a {
+    color: #505e47;
+    text-decoration: none;
+}
+
+.parallax-inner {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+html {
+    scroll-behavior: smoother;
+}
+
+h2 {
+    font-family: 'Shrikhand', cursive;
+    color: #505e47;
+}
+
+#artwork {
+    background-color: azure;
+}
+
+.artmusic {
+    width: 20px;
+        
 }
