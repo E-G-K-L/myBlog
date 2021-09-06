@@ -127,3 +127,19 @@ h2 {
     width: 20px;
         
 }
+
+.contact_1 h3 {
+    display: inline;
+}
+
+#contact {
+    background: white;
+
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+
+
